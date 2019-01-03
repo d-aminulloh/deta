@@ -61,6 +61,7 @@ button {
 }
 
 .mt-min-4{margin-top: -4px}
+.mtb-30{margin: 30px 0}
 /*==================
     02.HELPER
 ====================*/
@@ -689,8 +690,32 @@ button {
 }
 
 .logo_img img {
+    max-height: 100px;
+    width: auto !important;
     opacity: 0.6;
 }
+.back-logo{
+    display: block;
+}
+.front-logo{
+    display: none;
+}
+.logo_img:hover .back-logo {
+    /* padding: 28px; */
+    display: none;
+}
+.logo_img:hover .front-logo {
+    /* padding: 28px; */
+    display: block;
+    opacity: 1;
+}
+.link-client{
+    color: #fff !important;
+}
+.link-client:hover{
+    color: #F51E46 !important;
+}
+
 
 /*====================
   12. OUR TEAM
@@ -799,10 +824,7 @@ button {
   16. GREAT PEOPLE
 ====================*/
 
-.logo_img img {
-    max-height: 120px;
-    width: auto !important;
-}
+
 
 /*=====================
     17. CONTACT US
