@@ -95,12 +95,15 @@ button {
 .btn {
     padding: 13px 32px;
     font-size: 14px;
-    transition: all 0.5s;
     letter-spacing: 0.6px;
     color: #fff;
     box-shadow: none !important;
     text-transform: uppercase;
     outline: none !important;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
 }
 
 .btn_custom {
@@ -218,7 +221,11 @@ button {
     z-index: 999;
     margin-bottom: 0px;
     transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
     border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+
 }
 
 .custom_nav_menu .social_menu .list-inline-item:not(:last-child) {
@@ -233,6 +240,9 @@ button {
     margin: 0 7px;
     font-weight: 600;
     transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
 }
 
 .navbar-toggler {
@@ -373,7 +383,10 @@ button {
     height: 100%;
     border-radius: 50%;
     z-index: -1;
-    transition: all .2s;
+    transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
 }
 
 
@@ -418,6 +431,10 @@ button {
     background: #fff;
     border-radius: 35px;
     box-shadow: 0 8px 20px -2px rgba(158, 152, 153, 0.5);
+    transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3px;
 }
 
 .about_header_main .about_heading {
@@ -456,6 +473,10 @@ button {
     /* border: 1px dotted #e7e7e7; */
     border-radius: 10px;
     box-shadow: 0px 0px 10px #eee;
+    transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
 }
 
 .business_services_boxes .business_services_icon i {
@@ -579,7 +600,9 @@ button {
     font-size: 14px;
     padding: 7px 16px;
     transition: all 0.5s;
-    /* margin-top: 5px; */
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
 }
 
 .work_menu a.active,
@@ -613,10 +636,16 @@ button {
     left: 0;
     border-radius: 5px;
     transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+    -moz-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+    -o-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+    -webkit-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
 }
 
 .work_box .work_img>img {
     transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1);
+    -moz-transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1);
+    -o-transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1);
+    -webkit-transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1);
     border-radius: 0;
 }
 
@@ -630,6 +659,9 @@ button {
     left: 0;
     overflow: hidden;
     transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+    -moz-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+    -o-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+    -webkit-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
 }
 
 .work_box .work_detail h4 {
@@ -712,6 +744,10 @@ button {
 }
 .link-client{
     color: #fff !important;
+    transition: all 0.27s;
+    -moz-transition: all 0.27s;
+    -o-transition: all 0.27s;
+    -webkit-transition: all 0.27s;
 }
 .link-client:hover{
     color: #F51E46 !important;
@@ -730,6 +766,9 @@ button {
     color: #bbbbbb;
     display: inline-block;
     transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
     padding: 6px 12px;
     text-align: center;
 }
@@ -1002,7 +1041,10 @@ textarea.form-control {
 	width: 100%;
 	height: 100%;
 	background-color: #333;
-	transition: 0.35s ease;
+    transition: 0.35s ease;
+    -moz-transition: 0.35s ease;
+    -o-transition: 0.35s ease;
+    -webkit-transition: 0.35s ease;
 	border-radius: 35px;
   }
   .nav-bars:before {
