@@ -619,6 +619,7 @@ button {
 .work_box {
     overflow: hidden;
     position: relative;
+    border-radius: 8px;
 }
 
 .work_box .work_img {
